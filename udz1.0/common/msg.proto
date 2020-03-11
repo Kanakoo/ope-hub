@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+message myPkg {
+    required int32 msgType = 1;
+    optional int32 msgId = 2;
+    optional int32 encId = 3;
+    optional string tmp = 4;
+    optional string cipher = 5;
+    optional int64 y=6;
+    optional int64 rst = 7;
+    optional string path=8;
+    optional int32 vBef = 9;
+    optional int32 vUDZ = 10;
+    repeated string lcip = 11;
+    repeated string rcip = 12;
+    repeated int64 lenc = 13;
+    repeated int64 renc = 14;
+    repeated string allcip = 15;
+    repeated int64 allenc = 16;
+    optional bool mtd = 17;
+}
